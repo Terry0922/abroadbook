@@ -3,7 +3,7 @@
 .clearfix{*zoom:1}
 .clearfix:after{clear:both;display:block;content:'';}
 
-html,body {font-size:16px; font-family: 'Noto Sans KR', sans-serif; font-weight:400; color: #333;}
+html,body {font-size:16px; font-family: 'Noto Sans KR', sans-serif; font-weight:300; color: #585858;}
 body {position:relative;}
 a {text-decoration:none;  color: #337ab7;}
 a:hover {
@@ -356,11 +356,13 @@ h3.grand_title {
     font-size: 24px;
     font-weight: 500;
     font-size: 18px;
+    color: #333;
 }
 
 h4.first_title {
     margin: 30px 0;
     font-size: 20px;
+    color: #333;
 }
 
 h5 {
@@ -370,6 +372,7 @@ h5 {
     margin-top: 20px;
     font-size: 18px;
     transform: skew(0.03deg);
+    color: #333;
 }
 
 h6 {
@@ -380,6 +383,7 @@ h6 {
     padding-left: 60px;
     font-size: 14px;
     transform: skew(0.03deg);
+    color: #333;
 }
 
 .container p {
@@ -398,6 +402,7 @@ h6 {
     padding-left: 40px;
     display: block;
     font-weight: bold;
+    color: #333;
 }
 
 .pdleft04 {
@@ -587,6 +592,17 @@ hr {
     text-shadow: none;
     border-style: none;
     border-image: none;
+}
+.container img {
+    margin: 40px 0 0 !important;
+}
+
+@media (max-width: 1150px) {
+
+    .container img {
+        margin: 40px auto 0 !important;
+    }
+
 }
 
 
