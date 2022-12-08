@@ -492,7 +492,11 @@ table.table_03 ul {
 .table.th_first tr td {
     text-align: left !important;
 }
-
+.table > tbody > tr.borbot_none > td, 
+.table > tbody > tr.borbot_none > th {
+    border-top: none !important;
+    border-bottom: none !important;
+}
 
 .table.table_02.border_right th, 
 .table.table_02.border_right td {
