@@ -713,3 +713,12 @@ hr {
 		z-index: 999;
 	}
 }
+
+@media (max-width: 523px) {
+    .top-nav > img{
+        width: 180px;
+    }
+    #jqcs_s_demo {
+        width: 175px;
+    }
+}
